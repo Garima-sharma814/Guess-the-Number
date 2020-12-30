@@ -1,7 +1,7 @@
 # guess the number
-guess = 5
+guess = 10
 n = 68
-while(guess <= 5):
+while(guess <= 10):
     print("number of guesses left:- ", guess)
     i = int(input("enter the number "))
     if i > n:
